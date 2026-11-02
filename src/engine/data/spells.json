@@ -1,0 +1,14 @@
+{
+  "firestorm":      { "name": "Firestorm",      "school": "fire",   "mana": 40, "priority": 1, "effect": { "type": "damage", "fraction": 0.15, "morale": -10 } },
+  "burning_ground": { "name": "Burning Ground", "school": "fire",   "mana": 30, "priority": 7, "effect": { "type": "suppress" } },
+  "stone_wall":     { "name": "Stone Wall",     "school": "earth",  "mana": 30, "priority": 3, "effect": { "type": "integrity", "who": "self", "amount": 20 } },
+  "quake":          { "name": "Quake",          "school": "earth",  "mana": 50, "priority": 5, "effect": { "type": "integrity", "who": "enemy", "amount": -25 } },
+  "chilling_mist":  { "name": "Chilling Mist",  "school": "frost",  "mana": 30, "priority": 8, "effect": { "type": "fatigue", "amount": 15 } },
+  "frozen_river":   { "name": "Frozen River",   "school": "frost",  "mana": 40, "priority": 99, "inert": true, "effect": { "type": "none" } },
+  "arrow_gale":     { "name": "Arrow Gale",     "school": "wind",   "mana": 30, "priority": 2, "effect": { "type": "buff", "buff": "rangedMult", "value": 1.5 } },
+  "deflection":     { "name": "Deflection",     "school": "wind",   "mana": 30, "priority": 4, "effect": { "type": "buff", "buff": "deflect" } },
+  "rally":          { "name": "Rally",          "school": "light",  "mana": 30, "priority": 2, "effect": { "type": "morale", "who": "self", "amount": 15 } },
+  "mend":           { "name": "Mend",           "school": "light",  "mana": 40, "priority": 6, "effect": { "type": "mend", "share": 0.2 } },
+  "terror":         { "name": "Terror",         "school": "shadow", "mana": 40, "priority": 4, "effect": { "type": "morale", "who": "enemyFront", "amount": -15 } },
+  "chaos":          { "name": "Chaos",          "school": "shadow", "mana": 40, "priority": 6, "effect": { "type": "cohesion", "amount": -15 } }
+}

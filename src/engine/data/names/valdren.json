@@ -1,0 +1,9 @@
+{
+  "kingdomPatterns": ["Kingdom of {Place}", "Crown of {Place}", "{Place} Marches", "Principality of {Place}"],
+  "villages": ["Ashford", "Brennick", "Caldmoor", "Dunmere", "Elmsworth", "Fairhollow", "Greywater", "Harrowgate", "Kestrel's Rest", "Lindhurst", "Marrowby", "Northwick", "Oakhaven", "Redfield", "Stonebridge", "Thornbury", "Westmarch", "Wyndham", "Bramstead", "Aldergate"],
+  "prefixes": ["Ash", "Bren", "Cald", "Dun", "Elm", "Fair", "Grey", "Har", "Lind", "Mar", "North", "Oak", "Red", "Stone", "Thorn", "West", "Wynd", "Bram", "Alder"],
+  "suffixes": ["ford", "wick", "moor", "mere", "by", "hurst", "haven", "field", "gate", "bridge", "ton", "stead"],
+  "male": ["Aldric", "Bertram", "Cedric", "Edmund", "Gareth", "Halden", "Osric", "Roland", "Tomas", "Wystan", "Aldous", "Merek", "Alaric", "Corwin", "Hugh"],
+  "female": ["Adela", "Beatrix", "Cecily", "Elinor", "Isolde", "Maud", "Rowena", "Sybil", "Joanna", "Agnes", "Edith", "Matilda", "Alys", "Gwen", "Rosamund"],
+  "surnames": ["Ashby", "Blackwood", "Corwen", "Dunmore", "Halloway", "Marlowe", "Penrose", "Thorne", "Vance", "Whitlock", "Fairfax", "Greaves"]
+}

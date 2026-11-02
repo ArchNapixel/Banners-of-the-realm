@@ -1,0 +1,166 @@
+{
+  "tiers": {
+    "hamlet": {
+      "popCap": 1000,
+      "slots": 3,
+      "radius": 1,
+      "next": "village",
+      "upgrade": null
+    },
+    "village": {
+      "popCap": 3000,
+      "slots": 5,
+      "radius": 1,
+      "next": "town",
+      "upgrade": {
+        "gold": 300,
+        "stone": 50
+      }
+    },
+    "town": {
+      "popCap": 8000,
+      "slots": 8,
+      "radius": 2,
+      "next": "city",
+      "upgrade": {
+        "gold": 800,
+        "stone": 150
+      }
+    },
+    "city": {
+      "popCap": 20000,
+      "slots": 12,
+      "radius": 2,
+      "next": null,
+      "upgrade": {
+        "gold": 2000,
+        "stone": 400
+      }
+    }
+  },
+  "tierOrder": [
+    "hamlet",
+    "village",
+    "town",
+    "city"
+  ],
+  "upgradePopShare": 0.8,
+  "start": {
+    "gold": 300,
+    "wood": 50,
+    "stone": 20,
+    "tier": "village",
+    "buildings": [
+      "farm",
+      "barracks"
+    ],
+    "stability": 60,
+    "food": 100
+  },
+  "neutralStability": 50,
+  "villageCenterFood": 10,
+  "foodPer100Civilians": 1,
+  "surplusShare": 0.1,
+  "surplusGrowth": 1,
+  "starvationLoss": 0.02,
+  "starvationStability": -5,
+  "lowStabilityGrowthMult": 0.5,
+  "lowStabilityBelow": 30,
+  "tax": {
+    "low": {
+      "gold": 1,
+      "stability": 2
+    },
+    "normal": {
+      "gold": 2,
+      "stability": 0
+    },
+    "high": {
+      "gold": 3,
+      "stability": -3
+    }
+  },
+  "stability": {
+    "bonusAt": 80,
+    "bonusMult": 1.1,
+    "penaltyBelow": 40,
+    "penaltyMult": 0.8,
+    "revoltBelow": 20,
+    "garrison": 5,
+    "conscriptionShare": 0.1,
+    "conscription": -10,
+    "conquestDecay": 3,
+    "minorityShare": 0.1,
+    "minorityPenalty": -5,
+    "minorityBonus": 3,
+    "warWeariness": 10
+  },
+  "settler": {
+    "pop": 300,
+    "minDistance": 3
+  },
+  "military": {
+    "roadMove": 0.5,
+    "supplyRadius": 3,
+    "attritionShare": 0.03,
+    "forageMult": 0.5,
+    "forageStability": -10,
+    "forageFood": 20,
+    "foodPer100Soldiers": 2,
+    "desertionShare": 0.1,
+    "fatigueFullMove": 15,
+    "fatigueForced": 30,
+    "forcedMarchMove": 1,
+    "roadCost": {
+      "gold": 20,
+      "stone": 10
+    },
+    "replenishNewShare": 0.5,
+    "foundMinDistance": 3,
+    "newVillageStability": 50,
+    "visionCompany": 2,
+    "visionRecon": 4,
+    "startCompanies": [
+      "militia"
+    ],
+    "foreignUniqueStability": 60,
+    "outOfSupplyFatigue": 10,
+    "retreatRadius": 6,
+    "brokenMorale": 30,
+    "moraleRecovery": 10,
+    "woundedTurns": 3,
+    "conscriptMorale": 70,
+    "reportsKept": 20,
+    "pyrrhicStability": -10,
+    "releaseStability": 5,
+    "ransomPerMan": 1,
+    "championWoundedTurns": [
+      3,
+      6
+    ],
+    "rankBattles": [
+      0,
+      1,
+      3,
+      7
+    ]
+  },
+  "siege": {
+    "breachPerEngineer": 0.25,
+    "baseStores": 3,
+    "starveMorale": -20
+  },
+  "capture": {
+    "sameRacePenalty": 30,
+    "otherRacePenalty": 40,
+    "sackGoldPerResident": 1,
+    "sackPopLoss": 0.3,
+    "sackOwnerStability": -20,
+    "annexGoldPerResident": 0.3,
+    "annexRadius": 4
+  },
+  "revolt": {
+    "chance": 0.1,
+    "independentStability": 50
+  }
+}

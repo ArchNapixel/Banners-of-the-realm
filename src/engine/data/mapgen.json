@@ -1,0 +1,25 @@
+{
+  "sizes": {
+    "small":  { "width": 30, "height": 20, "maxAi": 2, "leyNodes": 3, "ruins": 3, "goldDeposits": 2, "neutralVillages": 3, "ancientForests": 1 },
+    "medium": { "width": 40, "height": 30, "maxAi": 3, "leyNodes": 5, "ruins": 5, "goldDeposits": 3, "neutralVillages": 5, "ancientForests": 2 },
+    "large":  { "width": 60, "height": 40, "maxAi": 5, "leyNodes": 8, "ruins": 8, "goldDeposits": 5, "neutralVillages": 8, "ancientForests": 3 }
+  },
+  "noise": { "elevationScale": 0.16, "moistureScale": 0.2, "octaves": 4, "persistence": 0.5 },
+  "terrain": { "mountainShare": 0.10, "hillShare": 0.18, "marshShare": 0.07, "forestShare": 0.28, "coastEdgeDistance": 1 },
+  "placement": {
+    "capitalMinDistance": 10, "capitalEdgeMargin": 2, "villageMinDistance": 3, "neutralMinCapitalDistance": 4,
+    "capitalPopulation": 1500, "neutralPopulation": [300, 800],
+    "ancientForestMinSize": 6, "ancientForestRadius": 2,
+    "leyMinDistance": 4, "ruinsMinDistance": 4, "candidateSample": 40
+  },
+  "colors": ["#c0392b", "#2980b9", "#27ae60", "#d4ac0d", "#8e44ad", "#16a085"],
+  "regionParts": ["Ashen", "Grey", "Thorn", "Silver", "Iron", "Raven", "Wolf", "Hollow", "Amber", "Frost", "Ember", "Sorrow", "Vael", "Kesh", "Dun", "Mor", "Old King's", "Sundered", "Tharen", "Gold", "Black", "Whisper", "Storm", "Bright"],
+  "regionWords": {
+    "plains":    ["Fields", "Plains", "Downs", "Steppe", "Meadows", "Vale"],
+    "forest":    ["Wood", "Weald", "Deep", "Thicket", "Greenwood"],
+    "hills":     ["Hills", "Fells", "Rises", "Heights"],
+    "mountains": ["Peaks", "Spine", "Teeth", "Crags", "Range"],
+    "marsh":     ["Mire", "Fen", "Bog", "Sloughs", "Marshes"],
+    "coast":     ["Coast", "Shore", "Strand", "Reach"]
+  }
+}

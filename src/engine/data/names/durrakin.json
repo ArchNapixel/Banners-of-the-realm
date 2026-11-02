@@ -1,0 +1,9 @@
+{
+  "kingdomPatterns": ["The Hold of {Place}", "Clan {Clan}", "{Place} Deep", "The {Place} Holds"],
+  "villages": ["Khar Durum", "Dun Gorrim", "Ironvault", "Grimhold", "Thorgrund", "Kal Morra", "Stonedeep", "Brannoc Gate", "Hammerfall", "Orrin's Delve", "Duskanvil", "Gol Barren", "Haldrak", "Morgrund"],
+  "prefixes": ["Khar", "Dun", "Gor", "Thor", "Kal", "Brann", "Grim", "Durr", "Hald", "Mor"],
+  "suffixes": ["durum", "grund", "hold", "delve", "gate", "forge", "deep", "mor", "rak"],
+  "male": ["Balgrim", "Durgan", "Harrok", "Korvin", "Morgrim", "Orrin", "Thorvak", "Brokk", "Gundar", "Varrik", "Dolgren", "Haldor"],
+  "female": ["Brynja", "Dagna", "Helga", "Kara", "Ragna", "Sigrun", "Thora", "Hilde", "Vigdis", "Embla", "Gerda", "Astrid"],
+  "clans": ["Stonefist", "Deepdelver", "Hammerhand", "Coalbrow", "Anvilborn", "Granitejaw", "Goldvein", "Ironmantle", "Emberbeard"]
+}

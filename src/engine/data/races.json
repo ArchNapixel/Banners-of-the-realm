@@ -1,0 +1,194 @@
+{
+  "valdren": {
+    "name": "Valdren",
+    "plain": "Humans",
+    "playable": true,
+    "homeland": [
+      "plains",
+      "coast"
+    ],
+    "growth": 2.0,
+    "companySize": 500,
+    "stabilityBase": 0,
+    "start": {
+      "gold": 100
+    },
+    "buildingCostMult": 0.9,
+    "outputMult": {
+      "market": 1.1,
+      "harbor": 1.1
+    },
+    "unitMods": [],
+    "forbiddenUnits": [],
+    "forbiddenBuildings": [],
+    "terrainMove": {},
+    "affinitySchools": [
+      "light",
+      "wind"
+    ],
+    "risingBonus": 0.02
+  },
+  "sylvaen": {
+    "name": "Sylvaen",
+    "plain": "Elves",
+    "playable": true,
+    "homeland": [
+      "forest"
+    ],
+    "growth": 1.2,
+    "companySize": 300,
+    "stabilityBase": 0,
+    "start": {
+      "wood": 50
+    },
+    "buildingCostMult": 1,
+    "outputMult": {},
+    "unitMods": [
+      {
+        "atk": 1,
+        "def": 1,
+        "discipline": 10
+      }
+    ],
+    "forbiddenUnits": [
+      "heavy_cavalry",
+      "siege_engineers"
+    ],
+    "forbiddenBuildings": [],
+    "terrainMove": {
+      "forest": 1
+    },
+    "affinitySchools": [
+      "wind",
+      "frost"
+    ],
+    "forbiddenSchools": [
+      "fire"
+    ],
+    "xpMult": 1.25
+  },
+  "durrakin": {
+    "name": "Durrakin",
+    "plain": "Dwarves",
+    "playable": true,
+    "homeland": [
+      "mountains",
+      "hills"
+    ],
+    "growth": 1.5,
+    "companySize": 400,
+    "stabilityBase": 0,
+    "start": {
+      "iron": 40
+    },
+    "buildingCostMult": 1,
+    "outputMult": {
+      "mine": 1.5,
+      "gold_mine": 1.5,
+      "quarry": 1.5
+    },
+    "costMult": {
+      "stone_walls": 0.6
+    },
+    "unitMods": [
+      {
+        "tag": "infantry",
+        "armor": 1,
+        "discipline": 10
+      }
+    ],
+    "forbiddenUnits": [
+      "light_cavalry",
+      "heavy_cavalry",
+      "battle_mages"
+    ],
+    "forbiddenBuildings": [
+      "stables"
+    ],
+    "terrainMove": {
+      "mountains": 2
+    },
+    "affinitySchools": [
+      "earth",
+      "fire"
+    ]
+  },
+  "ghor": {
+    "name": "Ghor",
+    "plain": "Orcs",
+    "playable": true,
+    "homeland": [
+      "hills",
+      "plains"
+    ],
+    "growth": 3.0,
+    "companySize": 500,
+    "stabilityBase": -10,
+    "start": {
+      "food": 100
+    },
+    "buildingCostMult": 1,
+    "outputMult": {},
+    "costMult": {
+      "stone_walls": 1.5
+    },
+    "unitMods": [
+      {
+        "atk": 1,
+        "discipline": -10
+      }
+    ],
+    "forbiddenUnits": [
+      "clerics",
+      "crossbowmen"
+    ],
+    "forbiddenBuildings": [],
+    "terrainMove": {},
+    "affinitySchools": [
+      "fire",
+      "shadow"
+    ],
+    "foragingNoAttrition": true,
+    "pitsRisingBonus": 0.03,
+    "sackBonus": 0.5
+  },
+  "vashkari": {
+    "name": "Vashkari",
+    "plain": "Marshfolk",
+    "playable": true,
+    "homeland": [
+      "marsh",
+      "coast"
+    ],
+    "growth": 2.5,
+    "companySize": 500,
+    "stabilityBase": 0,
+    "start": {
+      "food": 100
+    },
+    "buildingCostMult": 1,
+    "outputMult": {
+      "fishing_dock": 1.5
+    },
+    "unitMods": [
+      {
+        "armor": 1
+      }
+    ],
+    "forbiddenUnits": [
+      "light_cavalry",
+      "heavy_cavalry"
+    ],
+    "forbiddenBuildings": [
+      "stables"
+    ],
+    "terrainMove": {
+      "marsh": 1
+    },
+    "affinitySchools": [
+      "frost",
+      "shadow"
+    ],
+    "marshImmune": true
+  }
+}

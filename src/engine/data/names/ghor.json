@@ -1,0 +1,9 @@
+{
+  "kingdomPatterns": ["The {Place} Horde", "Clan {Place}", "The {Place} Warband"],
+  "villages": ["Ghazrak", "Morkul", "Skarnag", "Urzog", "Krull's Pit", "Durzag", "Vorgash", "Rakmor", "Thuzgul", "Bruka", "Grashnak", "Ulkar", "Zagmor", "Ruktar"],
+  "prefixes": ["Ghaz", "Mor", "Skar", "Urz", "Dur", "Vor", "Rak", "Thuz", "Grash", "Ulk", "Bruk", "Zag"],
+  "suffixes": ["rak", "kul", "nag", "zog", "gash", "mor", "gul", "ar", "tar"],
+  "male": ["Azgar", "Brakka", "Durgash", "Grommak", "Hruk", "Krazz", "Morgath", "Rukh", "Throgg", "Urzak", "Vorga", "Zugrak"],
+  "female": ["Agra", "Bashka", "Durga", "Ghazra", "Kurna", "Morra", "Shagra", "Urka", "Yazga", "Zhora"],
+  "epithets": ["Ironjaw", "Skullsplitter", "the Red", "Bonecrusher", "Blacktooth", "Stormtusk", "Ashfang", "the Unbowed"]
+}

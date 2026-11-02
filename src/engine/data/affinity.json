@@ -1,0 +1,7 @@
+{
+  "valdren":  { "valdren": 0,  "sylvaen": 0,  "durrakin": 1,  "ghor": -1, "vashkari": 0 },
+  "sylvaen":  { "valdren": 0,  "sylvaen": 0,  "durrakin": -1, "ghor": -2, "vashkari": 0 },
+  "durrakin": { "valdren": 1,  "sylvaen": -1, "durrakin": 0,  "ghor": -2, "vashkari": 0 },
+  "ghor":     { "valdren": -1, "sylvaen": -2, "durrakin": -2, "ghor": 0,  "vashkari": 1 },
+  "vashkari": { "valdren": 0,  "sylvaen": 0,  "durrakin": 0,  "ghor": 1,  "vashkari": 0 }
+}

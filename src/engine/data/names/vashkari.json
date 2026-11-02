@@ -1,0 +1,9 @@
+{
+  "kingdomPatterns": ["The {Place} Brood", "The {Place} Mire-Clans", "Coil of {Place}"],
+  "villages": ["Ssethra", "Ixtal", "Vash'kor", "Thessik", "Shaaz", "Kesh'ra", "Ixmoor", "Zhalith", "Ossek", "Vruul", "Sskarra", "Tlazik"],
+  "prefixes": ["Sseth", "Ix", "Vash", "Thess", "Shaa", "Kesh", "Zhal", "Oss", "Vru", "Tla"],
+  "suffixes": ["ra", "tal", "kor", "ik", "az", "ith", "ek", "ul"],
+  "male": ["Isska", "Kethrax", "Ssarul", "Tzeshi", "Vashik", "Xalith", "Zhaaro", "Ossith", "Kraal", "Thessa", "Ixil", "Sslith"],
+  "female": ["Isska", "Kethrax", "Ssarul", "Tzeshi", "Vashik", "Xalith", "Zhaaro", "Ossith", "Kraal", "Thessa", "Ixil", "Sslith"],
+  "clutches": ["Green Coil", "Still Water", "Deep Reed", "Black Fen", "Silt-Mother", "Old Scale"]
+}

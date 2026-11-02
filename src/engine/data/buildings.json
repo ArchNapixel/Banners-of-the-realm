@@ -1,0 +1,456 @@
+{
+  "farm": {
+    "name": "Farm",
+    "cost": {
+      "gold": 60,
+      "wood": 20
+    },
+    "turns": 2,
+    "workers": 200,
+    "terrain": [
+      "plains"
+    ],
+    "produces": {
+      "food": 10
+    }
+  },
+  "fishing_dock": {
+    "name": "Fishing Dock",
+    "cost": {
+      "gold": 60,
+      "wood": 30
+    },
+    "turns": 2,
+    "workers": 150,
+    "terrain": [
+      "coast"
+    ],
+    "produces": {
+      "food": 8,
+      "gold": 2
+    }
+  },
+  "hunting_lodge": {
+    "name": "Hunting Lodge",
+    "cost": {
+      "gold": 50,
+      "wood": 10
+    },
+    "turns": 2,
+    "workers": 100,
+    "terrain": [
+      "forest"
+    ],
+    "produces": {
+      "food": 5
+    }
+  },
+  "lumber_camp": {
+    "name": "Lumber Camp",
+    "cost": {
+      "gold": 50
+    },
+    "turns": 2,
+    "workers": 150,
+    "terrain": [
+      "forest"
+    ],
+    "produces": {
+      "wood": 8
+    }
+  },
+  "peat_works": {
+    "name": "Peat Works",
+    "cost": {
+      "gold": 40
+    },
+    "turns": 2,
+    "workers": 100,
+    "terrain": [
+      "marsh"
+    ],
+    "produces": {
+      "food": 3,
+      "wood": 3
+    }
+  },
+  "quarry": {
+    "name": "Quarry",
+    "cost": {
+      "gold": 80,
+      "wood": 20
+    },
+    "turns": 3,
+    "workers": 200,
+    "terrain": [
+      "hills",
+      "mountains"
+    ],
+    "produces": {
+      "stone": 6
+    }
+  },
+  "mine": {
+    "name": "Mine",
+    "cost": {
+      "gold": 120,
+      "wood": 30
+    },
+    "turns": 3,
+    "workers": 250,
+    "terrain": [
+      "mountains"
+    ],
+    "produces": {
+      "iron": 5
+    }
+  },
+  "gold_mine": {
+    "name": "Gold Mine",
+    "cost": {
+      "gold": 200,
+      "wood": 40
+    },
+    "turns": 4,
+    "workers": 250,
+    "overlay": "goldDeposit",
+    "produces": {
+      "gold": 15
+    }
+  },
+  "stables": {
+    "name": "Stables",
+    "cost": {
+      "gold": 150,
+      "wood": 40
+    },
+    "turns": 3,
+    "workers": 100,
+    "terrain": [
+      "plains"
+    ],
+    "produces": {
+      "horses": 20
+    },
+    "unlocks": [
+      "light_cavalry",
+      "heavy_cavalry"
+    ]
+  },
+  "pasture": {
+    "name": "Pasture",
+    "cost": {
+      "gold": 80
+    },
+    "turns": 2,
+    "workers": 100,
+    "terrain": [
+      "plains",
+      "hills"
+    ],
+    "produces": {
+      "horses": 10
+    }
+  },
+  "market": {
+    "name": "Market",
+    "cost": {
+      "gold": 120,
+      "wood": 30
+    },
+    "turns": 3,
+    "workers": 100,
+    "produces": {
+      "gold": 10
+    },
+    "taxBonus": 0.1
+  },
+  "harbor": {
+    "name": "Harbor",
+    "cost": {
+      "gold": 300,
+      "wood": 80
+    },
+    "turns": 4,
+    "workers": 200,
+    "terrain": [
+      "coast"
+    ],
+    "minTier": "town",
+    "produces": {
+      "gold": 25
+    }
+  },
+  "granary": {
+    "name": "Granary",
+    "cost": {
+      "gold": 100,
+      "wood": 40
+    },
+    "turns": 2,
+    "workers": 50,
+    "growth": 0.5,
+    "siegeStores": 3
+  },
+  "housing_district": {
+    "name": "Housing District",
+    "cost": {
+      "gold": 150,
+      "wood": 50
+    },
+    "turns": 3,
+    "workers": 0,
+    "minTier": "village",
+    "popCapPct": 0.25
+  },
+  "barracks": {
+    "name": "Barracks",
+    "cost": {
+      "gold": 100,
+      "wood": 30
+    },
+    "turns": 2,
+    "workers": 50,
+    "unlocks": [
+      "militia",
+      "spearmen",
+      "scouts",
+      "settlers",
+      "pikemen",
+      "warband"
+    ]
+  },
+  "archery_range": {
+    "name": "Archery Range",
+    "cost": {
+      "gold": 120,
+      "wood": 60
+    },
+    "turns": 3,
+    "workers": 50,
+    "unlocks": [
+      "archers",
+      "crossbowmen"
+    ]
+  },
+  "blacksmith": {
+    "name": "Blacksmith",
+    "cost": {
+      "gold": 200,
+      "stone": 40
+    },
+    "turns": 3,
+    "workers": 100,
+    "needsIncome": "iron",
+    "unlocks": [
+      "swordsmen",
+      "heavy_cavalry"
+    ]
+  },
+  "siege_workshop": {
+    "name": "Siege Workshop",
+    "cost": {
+      "gold": 250,
+      "wood": 80,
+      "stone": 40
+    },
+    "turns": 4,
+    "workers": 100,
+    "minTier": "town",
+    "unlocks": [
+      "siege_engineers"
+    ]
+  },
+  "temple": {
+    "name": "Temple",
+    "cost": {
+      "gold": 150,
+      "stone": 50
+    },
+    "turns": 3,
+    "workers": 50,
+    "produces": {
+      "mana": 2
+    },
+    "stability": 10,
+    "unlocks": [
+      "clerics",
+      "shamans"
+    ]
+  },
+  "mage_tower": {
+    "name": "Mage Tower",
+    "cost": {
+      "gold": 400,
+      "stone": 80
+    },
+    "turns": 5,
+    "workers": 50,
+    "overlay": "ley",
+    "produces": {
+      "mana": 10
+    },
+    "unlocks": [
+      "battle_mages",
+      "runecasters",
+      "wardens",
+      "spellblades"
+    ]
+  },
+  "mana_well": {
+    "name": "Mana Well",
+    "cost": {
+      "gold": 150,
+      "stone": 40
+    },
+    "turns": 3,
+    "workers": 30,
+    "onOverlay": "ley",
+    "produces": {
+      "mana": 5
+    }
+  },
+  "shrine": {
+    "name": "Shrine",
+    "cost": {
+      "gold": 80,
+      "stone": 20
+    },
+    "turns": 2,
+    "workers": 20,
+    "produces": {
+      "mana": 3
+    }
+  },
+  "watchtower": {
+    "name": "Watchtower",
+    "cost": {
+      "gold": 60,
+      "wood": 20
+    },
+    "turns": 1,
+    "workers": 10,
+    "vision": 3
+  },
+  "palisade": {
+    "name": "Palisade",
+    "cost": {
+      "gold": 100,
+      "wood": 80
+    },
+    "turns": 2,
+    "workers": 0,
+    "defense": 0.2
+  },
+  "stone_walls": {
+    "name": "Stone Walls",
+    "cost": {
+      "gold": 400,
+      "stone": 200
+    },
+    "turns": 5,
+    "workers": 0,
+    "minTier": "village",
+    "needsBuilding": "palisade",
+    "defense": 0.4
+  },
+  "court": {
+    "name": "Court",
+    "cost": {
+      "gold": 200
+    },
+    "turns": 3,
+    "workers": 50,
+    "capitalOnly": true,
+    "unlocks": [
+      "nobles"
+    ]
+  },
+  "chapter_house": {
+    "name": "Chapter House",
+    "race": "valdren",
+    "cost": {
+      "gold": 300,
+      "stone": 80
+    },
+    "turns": 4,
+    "workers": 50,
+    "minTier": "town",
+    "unlocks": [
+      "knights_of_the_order",
+      "battle_priests"
+    ]
+  },
+  "heart_tree": {
+    "name": "Heart Tree",
+    "race": "sylvaen",
+    "cost": {
+      "gold": 250
+    },
+    "turns": 4,
+    "workers": 20,
+    "onTerrain": [
+      "forest"
+    ],
+    "produces": {
+      "mana": 5
+    },
+    "stability": 10,
+    "unlocks": [
+      "sylvan_longbows",
+      "thornguard",
+      "elk_riders"
+    ]
+  },
+  "deep_forge": {
+    "name": "Deep Forge",
+    "race": "durrakin",
+    "cost": {
+      "gold": 300,
+      "stone": 100
+    },
+    "turns": 4,
+    "workers": 100,
+    "needsBuilding": "mine",
+    "produces": {
+      "iron": 5
+    },
+    "unlocks": [
+      "ironshields",
+      "thunder_arbalests"
+    ]
+  },
+  "fighting_pits": {
+    "name": "Fighting Pits",
+    "race": "ghor",
+    "cost": {
+      "gold": 200,
+      "wood": 40
+    },
+    "turns": 3,
+    "workers": 50,
+    "trainingBonus": 1,
+    "unlocks": [
+      "boar_riders"
+    ]
+  },
+  "spawning_pools": {
+    "name": "Spawning Pools",
+    "race": "vashkari",
+    "cost": {
+      "gold": 200
+    },
+    "turns": 3,
+    "workers": 50,
+    "terrain": [
+      "marsh",
+      "coast"
+    ],
+    "growth": 1.0,
+    "unlocks": [
+      "venomblades",
+      "swamp_stalkers",
+      "mire_beasts"
+    ]
+  }
+}

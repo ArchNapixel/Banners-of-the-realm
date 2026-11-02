@@ -1,0 +1,9 @@
+{
+  "kingdomPatterns": ["The {Place} Court", "House {House}", "Grove of {Place}", "The {Place} Enclave"],
+  "villages": ["Aelindor", "Caelith", "Ithriel", "Lorthaen", "Myrravel", "Nythara", "Silvaine", "Thalorin", "Vaelith", "Elarion", "Faelwyn", "Seraneth", "Ilvaris", "Talanor", "Yselde"],
+  "prefixes": ["Ael", "Cael", "Ith", "Lor", "Myr", "Nyth", "Sil", "Thal", "Vael", "Fael", "Elar", "Ser", "Ilv", "Tal"],
+  "suffixes": ["indor", "ith", "iel", "thaen", "avel", "ara", "vaine", "orin", "wyn", "eth", "ion", "aris"],
+  "male": ["Aerion", "Caelan", "Eryndel", "Faelar", "Myrdin", "Sareth", "Taelis", "Vaeron", "Ilythen", "Thandor", "Lethril", "Orrith"],
+  "female": ["Aelwen", "Calithe", "Elowen", "Faelith", "Ilyra", "Lyssara", "Nimeth", "Saelith", "Vaelora", "Yrelle", "Thessaiel", "Miravel"],
+  "houses": ["Aelvaris", "Caelmyr", "Ithandril", "Silvarane", "Thaloris", "Vaenith", "Myrrowen"]
+}

@@ -1,0 +1,69 @@
+{
+  "plains": {
+    "frontage": 6,
+    "defense": 0,
+    "fatigue": 0,
+    "effects": [
+      {
+        "tag": "cavalry",
+        "dealt": 1.2
+      }
+    ],
+    "move": 1
+  },
+  "forest": {
+    "frontage": 3,
+    "defense": 0.1,
+    "fatigue": 0,
+    "effects": [
+      {
+        "tag": "cavalry",
+        "dealt": 0.7
+      },
+      {
+        "tag": "ranged",
+        "dealt": 0.8
+      }
+    ],
+    "move": 2
+  },
+  "hills": {
+    "frontage": 4,
+    "defense": 0.15,
+    "fatigue": 0,
+    "effects": [
+      {
+        "tag": "ranged",
+        "dealt": 1.1,
+        "defenderOnly": true
+      }
+    ],
+    "move": 2
+  },
+  "mountains": {
+    "frontage": 2,
+    "defense": 0.3,
+    "fatigue": 0,
+    "effects": [
+      {
+        "tag": "cavalry",
+        "dealt": 0.5
+      }
+    ],
+    "move": 3
+  },
+  "marsh": {
+    "frontage": 3,
+    "defense": 0,
+    "fatigue": 5,
+    "effects": [],
+    "move": 3
+  },
+  "coast": {
+    "frontage": 6,
+    "defense": 0,
+    "fatigue": 0,
+    "effects": [],
+    "move": 1
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "attackerAtk": 8,
+  "menPerMight": 8,
+  "hpPerVitality": 10,
+  "exposure": 0.05,
+  "directHitHp": 2,
+  "downKilledChance": 0.25,
+  "downCapturedChance": 0.2,
+  "killedMorale": -20,
+  "reveal": { "fear": -15, "surge": 10 },
+  "duel": { "exchanges": 3, "rollMin": 1, "rollMax": 10, "moraleSwing": 15, "killedChance": 0.4 },
+  "giantslayer": { "mult": 1.5, "sizeAtLeast": 10 },
+  "stalwartDefMult": 1.2,
+  "arcaneTouchedMult": 0.7,
+  "heavyMagicShare": 0.1,
+  "baseStat": 5, "mainBonus": 4, "secondaryBonus": 2, "statPointsPerLevel": 3, "levelXp": 100,
+  "xp": { "survive": 20, "day": 10, "killsPer": 10, "rout": 15, "duel": 60 },
+  "rising": {
+    "base": 0.01, "veteran": 0.03, "elite": 0.08, "outnumbered": 0.10, "outnumberedRatio": 2,
+    "causedRout": 0.05, "heldLine": 0.10, "killedChampion": 0.25, "glory": 0.01, "previousKilled": 0.15,
+    "awakeningChance": 0.05, "awakeningArcana": 4
+  },
+  "classes": {
+    "folkHero":        { "name": "Folk Hero",        "main": "resolve",    "secondary": "vitality" },
+    "wardenOfTheLine": { "name": "Warden of the Line", "main": "vitality", "secondary": "tactics" },
+    "blademaster":     { "name": "Blademaster",      "main": "might",      "secondary": "vitality" },
+    "marksman":        { "name": "Marksman",         "main": "might",      "secondary": "tactics" },
+    "lancerLord":      { "name": "Lancer Lord",      "main": "might",      "secondary": "leadership" },
+    "archmage":        { "name": "Archmage",         "main": "arcana",     "secondary": "tactics" },
+    "saint":           { "name": "Saint",            "main": "resolve",    "secondary": "arcana" },
+    "spellbreaker":    { "name": "Spellbreaker",     "main": "might",      "secondary": "arcana" }
+  },
+  "classByUnit": {
+    "militia": "folkHero", "warband": "folkHero",
+    "spearmen": "wardenOfTheLine", "pikemen": "wardenOfTheLine", "ironshields": "wardenOfTheLine", "thornguard": "wardenOfTheLine",
+    "swordsmen": "blademaster", "venomblades": "blademaster", "skeleton_legion": "blademaster", "hill_giant": "blademaster",
+    "archers": "marksman", "crossbowmen": "marksman", "longbows": "marksman", "arbalests": "marksman", "stalkers": "marksman",
+    "light_cavalry": "lancerLord", "heavy_cavalry": "lancerLord",
+    "battle_mages": "archmage", "runecasters": "archmage", "spellblades": "archmage",
+    "clerics": "saint", "battle_priests": "saint", "shamans": "saint",
+    "wardens": "spellbreaker"
+  },
+  "traitMoments": ["heldLine", "killedChampion", "ambush", "outnumbered", "causedRout", "siege", "heavyMagic"],
+  "traits": {
+    "unbreakable":  { "moment": "heldLine",       "epithet": "the Unbroken" },
+    "giantslayer":  { "moment": "killedChampion", "epithet": "Giantslayer" },
+    "watchful":     { "moment": "ambush",         "epithet": "the Watchful" },
+    "stalwart":     { "moment": "outnumbered",    "epithet": "the Stalwart" },
+    "bloodthirsty": { "moment": "causedRout",     "epithet": "the Red" },
+    "ironWill":     { "moment": "siege",          "epithet": "Ironheart" },
+    "arcaneTouched": { "moment": "heavyMagic",    "epithet": "Spellscarred" }
+  },
+  "names": ["Tomas", "Aldric", "Bertram", "Cedric", "Edmund", "Gareth", "Halden", "Osric", "Roland", "Wystan", "Merek", "Alaric", "Corwin", "Hugh", "Adela", "Beatrix", "Cecily", "Elinor", "Isolde", "Maud", "Rowena", "Sybil", "Joanna", "Agnes"]
+}
