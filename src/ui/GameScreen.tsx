@@ -14,6 +14,7 @@ import { VillagePanel } from './panels/VillagePanel';
 import { UNIT_DEFS } from '../engine/core/units';
 import { RACES } from '../engine/core/data';
 import { key } from '../engine/core/hex';
+import { UnitToken } from './UnitToken';
 
 const RES: { key: keyof Resources; label: string }[] = [
   { key: 'gold', label: 'Gold' }, { key: 'food', label: 'Food' }, { key: 'wood', label: 'Wood' }, { key: 'stone', label: 'Stone' },
@@ -116,8 +117,13 @@ function Sidebar() {
           {loose.map((c) => (
             <li key={c.id}>
               <button onClick={() => setUnits([c.id], c.hex)} className={`w-full rounded px-2 py-1.5 text-left text-sm ${selectedUnits.includes(c.id) ? 'bg-amber-500/20 text-amber-200' : 'hover:bg-white/5'}`}>
-                <div>{UNIT_DEFS[c.unitType].name}</div>
-                <div className="text-xs text-slate-400">{c.men} men · {c.status}</div>
+                <div className="flex items-center gap-2">
+                  <UnitToken id={c.unitType} size={22} />
+                  <div>
+                    <div>{UNIT_DEFS[c.unitType].name}</div>
+                    <div className="text-xs text-slate-400">{c.men} men · {c.status}</div>
+                  </div>
+                </div>
               </button>
             </li>
           ))}

@@ -4,6 +4,7 @@ import { speedOf } from '../../engine/core/movement';
 import { UNIT_DEFS } from '../../engine/core/units';
 import type { Company, HexCoord } from '../../engine/core/types';
 import { moveTargetOf, PLAYER, useGame } from '../../store/game';
+import { UnitToken } from '../UnitToken';
 
 const RANK_COLOR: Record<Company['rank'], string> = { green: 'text-slate-400', trained: 'text-sky-300', veteran: 'text-violet-300', elite: 'text-amber-300' };
 
@@ -14,6 +15,7 @@ function Row({ c }: { c: Company }) {
   return (
     <label className={`flex cursor-pointer items-center gap-2 rounded px-2 py-1 ${selected ? 'bg-amber-500/15' : 'bg-white/5 hover:bg-white/10'}`}>
       <input type="checkbox" checked={selected} onChange={() => toggle(c.id)} />
+      <UnitToken id={c.unitType} />
       <div className="min-w-0 flex-1">
         <div className="truncate">{def.name} <span className="text-xs text-slate-500">· {RACES[c.race].name}</span></div>
         <div className="text-xs text-slate-400">

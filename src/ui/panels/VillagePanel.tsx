@@ -5,6 +5,7 @@ import { assignWorkers, buildBlocker, buildCost, effectiveStability, kingdomInco
 import { BUILDINGS, ECON, RACES, TIERS } from '../../engine/core/data';
 import type { RaceId, Resources, TaxLevel, Village } from '../../engine/core/types';
 import { PLAYER, useGame } from '../../store/game';
+import { UnitToken } from '../UnitToken';
 
 const fmt = (n: number) => Math.round(n).toLocaleString('en-US');
 const signed = (n: number) => `${n >= 0 ? '+' : ''}${n.toFixed(1)}`;
@@ -170,7 +171,7 @@ export function VillagePanel({ village: v }: { village: Village }) {
               <ul className="mb-1 space-y-1">
                 {v.trainQueue.map((q) => (
                   <li key={q.slot} className="flex justify-between rounded bg-sky-500/10 px-2 py-1 text-sky-200">
-                    <span>{UNIT_DEFS[q.id].name} <span className="text-xs text-slate-400">({q.men} {RACES[q.race].name})</span></span>
+                    <span className="flex items-center gap-2"><UnitToken id={q.id} size={18} />{UNIT_DEFS[q.id].name} <span className="text-xs text-slate-400">({q.men} {RACES[q.race].name})</span></span>
                     <span>{q.turnsLeft} turn{q.turnsLeft > 1 ? 's' : ''}</span>
                   </li>
                 ))}
@@ -190,8 +191,13 @@ export function VillagePanel({ village: v }: { village: Village }) {
                       title={reason ?? `Recruit ${def.name}`}
                       className="w-full rounded bg-slate-700 px-2 py-1 text-left enabled:hover:bg-slate-600 disabled:opacity-40"
                     >
-                      <div className="flex justify-between"><span>{def.name} <span className="text-xs text-slate-400">({companyMen(id, draw)})</span></span><span className="text-slate-400">{def.turns}t</span></div>
-                      <div className="text-xs text-slate-400">{reason ?? cost(def.cost!)}</div>
+                      <div className="flex items-center gap-2">
+                        <UnitToken id={id} size={24} />
+                        <div className="min-w-0 flex-1">
+                          <div className="flex justify-between"><span>{def.name} <span className="text-xs text-slate-400">({companyMen(id, draw)})</span></span><span className="text-slate-400">{def.turns}t</span></div>
+                          <div className="text-xs text-slate-400">{reason ?? cost(def.cost!)}</div>
+                        </div>
+                      </div>
                     </button>
                   </li>
                 );
